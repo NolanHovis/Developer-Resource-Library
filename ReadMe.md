@@ -9,4 +9,5 @@ Equipped with responsive designs and walkthroughs of what each elemen, class, id
 # Table of Contents
 
 - [Web Developer Resource Library](#web-developer-resource-library)
-- [Table of Contents](#table-of-contents)
+  - [Table of Contents](#table-of-contents)
+    - [Responsive Nav Bar](./Responsive-Navbar/ReadMe.md)
