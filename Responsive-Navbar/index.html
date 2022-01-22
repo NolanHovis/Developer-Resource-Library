@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Responsive Navigation</title>
+  </head>
+  <body>
+    <nav class="full-nav">
+      <div class="nav-container">
+        <div class="nav-title">
+          <img src="./Logo/ion_logo-html5.png" alt="Logo" />
+          <h1>HTML</h1>
+        </div>
+        <div class="hamburger" aria-controls="nav-menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-menu" id="nav-menu" data-visible="false">
+          <ul class="list">
+            <li class="list-item"><a href="#">Home</a></li>
+            <li class="list-item"><a href="#">Blog</a></li>
+            <li class="list-item"><a href="#">Contact</a></li>
+            <li class="list-item"><a href="#">Sign-Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
